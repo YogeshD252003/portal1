@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #464d2d;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #929463;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            padding: 20px;
+            background-color: #b39c7f;
+            border: 1px solid #6d0606;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .project-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .project-card p {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+        .project-card a {
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .project-card a:hover {
+            background-color: #0056b3;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container for Navigation -->
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Container for Projects Section -->
+    <div class="container">
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <h3>Hotel Management System: Hybrid Version</h3>
+                    <p>In this project, we used OCR technology to enhance hotel management.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <h3>Dredging Analysis</h3>
+                    <p>Implemented using MATLAB and clustering algorithms for analysis.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
